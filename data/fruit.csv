@@ -1,0 +1,11 @@
+name,weight,color,is_round,origin
+Avocado,200,green,false,South America
+Banana,120,yellow,false,Asia
+Blueberry,1,blue,false,North America
+Cantaloupe,2500,orange,true,Africa
+Cranberry,2,red,false,North America
+Elderberry,1,black,false,Europe
+Orange,130,orange,true,Asia
+Papaya,1000,orange,false,South America
+Peach,150,orange,true,Asia
+Watermelon,5000,green,true,Africa

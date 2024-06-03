@@ -48,37 +48,33 @@ Note that this outline is subject to change.
 1. Introducing Polars
 2. First Steps
 3. Transitioning from Pandas to Polars
-4. Transitioning from Spark to Polars
 
 #### Part 2: Load
 
-5. Data Types and Data Structures
-6. Eager and Lazy APIs
-7. Reading and Writing Data
+4. Data Types and Data Structures
+5. Eager and Lazy APIs
+6. Reading and Writing Data
 
 #### Part 3: Express
 
-8. Beginning Expressions
-9. Continuing Expressions
-10. Combining Expressions
+7. Beginning Expressions
+8. Continuing Expressions
+9. Combining Expressions
 
 #### Part 4: Transform
 
-11. Selecting and Creating Columns
-12. Filtering and Sorting Rows
-13. Working with Special Data Types
-14. Summarizing and Aggregating
-15. Joining and Concatenating
-16. Reshaping
+10. Selecting and Creating Columns
+11. Filtering and Sorting Rows
+12. Working with Special Data Types
+13. Summarizing and Aggregating
+14. Joining and Concatenating
+15. Reshaping
 
 #### Part 5: Advance
 
-17. Creating Visualizations
-18. Extending Polars
-19. SQL with Polars
-20. Debugging and Testing with Polars
-21. Polars Internals
-22. Integrating with Other Tools
+16. Creating Visualizations
+17. Extending Polars
+18. Polars Internals
 
 
 

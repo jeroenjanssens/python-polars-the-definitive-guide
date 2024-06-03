@@ -1,0 +1,11 @@
+tool,product,brand,cordless,price,rpm
+Rotary Hammer,HR2230,Makita,False,199,1050
+Miter Saw,GCM 8 SJL,Bosch,False,391,5500
+Plunge Cut Saw,DSP600ZJ,Makita,True,459,6300
+Impact Driver,DTD157Z,Makita,True,156,3000
+Jigsaw,PST 900 PEL,Bosch,False,79,3100
+Angle Grinder,DGA504ZJ,Makita,True,229,8500
+Nail Gun,DPSB2IN1-XJ,DeWalt,True,129,
+Router,POF 1400 ACE,Bosch,False,185,28000
+Random Orbital Sander,DBO180ZJ,Makita,True,199,11000
+Table Saw,DWE7485,DeWalt,False,516,5800

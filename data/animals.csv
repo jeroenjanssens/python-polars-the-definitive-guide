@@ -1,0 +1,11 @@
+animal,class,habitat,diet,lifespan,status,features,weight
+dolphin,mammal,oceans/rivers,carnivore,40,least concern,high intelligence,150
+duck,bird,wetlands,omnivore,8,least concern,waterproof feathers,3
+elephant,mammal,savannah,herbivore,60,endangered,large ears and trunk,8000
+ibis,bird,wetlands,omnivore,16,least concern,"long, curved bill",1
+impala,mammal,savannah,herbivore,12,least concern,"long, curved horns",70
+kudu,mammal,savannah,herbivore,15,least concern,spiral horns,250
+narwhal,mammal,arctic ocean,carnivore,40,near threatened,"long, spiral tusk",
+panda,mammal,forests,herbivore,20,vulnerable,black and white coloration,100
+polar bear,mammal,arctic,carnivore,25,vulnerable,thick fur and blubber,720
+ray,fish,oceans,carnivore,20,"","flat, disc-shaped body",90

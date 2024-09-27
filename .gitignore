@@ -1,1 +1,9 @@
 .ipynb_checkpoints/
+.DS_Store
+
+data/citibike-csv
+data/stars
+data/citibike/
+!data/citibike/*.geojson
+!data/citibike/*.parquet
+

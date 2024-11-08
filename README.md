@@ -5,10 +5,10 @@
 &nbsp;
 [![Polars Discord server](https://dcbadge.vercel.app/api/server/4qf7UVDZmd?style=flat-square)](https://discord.gg/4qf7UVDZmd)
 
-<img src="cover.jpg" width="200" height="263" align="right"/>
+<img src="pp-cover-800w.jpg" width="200" height="263" align="right"/>
 
 Welcome to the official repository of the book *Python Polars: The Definitive Guide* by Jeroen Janssens and Thijs Nieuwdorp.
-The book is still being written and is scheduled to be published by O'Reilly in January 2025. 
+The book is still being written and is scheduled to be published by O'Reilly in February 2025. 
 
 * Read the Early Release version on the [O'Reilly Learning Platform](https://learning.oreilly.com/library/view/python-polars-the/9781098156077/).
 * Become a member of the [Polars Discord server](https://discord.gg/4qf7UVDZmd) to discuss anything related to Polars and to download Early Release PDFs from the `#book-the-definitive-guide` channel.

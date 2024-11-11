@@ -3,7 +3,7 @@
 
 data/citibike-csv
 data/stars
-data/citibike/
+data/citibike/*
 !data/citibike/*.geojson
 !data/citibike/*.parquet
 

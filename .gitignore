@@ -7,3 +7,7 @@ data/citibike/*
 !data/citibike/*.geojson
 !data/citibike/*.parquet
 
+data/all_stocks.parquet
+data/all_stocks.xlsx
+
+target/

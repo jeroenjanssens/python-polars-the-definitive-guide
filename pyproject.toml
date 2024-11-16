@@ -20,4 +20,5 @@ dependencies = [
     "hvplot>=0.11.1",
     "textblob>=0.18.0.post0",
     "scikit-learn>=1.5.2",
+    "jupyter-bokeh>=4.0.5",
 ]

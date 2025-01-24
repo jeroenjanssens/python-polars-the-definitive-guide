@@ -1,23 +1,45 @@
 [project]
 name = "python-polars-the-definitive-guide"
 version = "1.0.0"
-description = "Scripts and datasets for the O'Reilly book Python Polars: The Definitive Guide "
-readme = "README.md"
 requires-python = "==3.12.*"
+description = "Python Polars: The Definitive Guide"
+readme = "README.md"
+authors = [
+    { name = "Jeroen Janssens", email = "jeroen@jeroenjanssens.com" },
+    { name = "Thijs Nieuwdorp", email = "thijsnieuwdorp@hotmail.com" }
+]
 dependencies = [
-    "chardet>=5.2.0",
-    "datashader>=0.16.3",
-    "numpy<2",
-    "geoviews>=1.13.0",
-    "ipykernel>=6.29.5",
-    "jupyterlab>=4.3.1",
+    "altair>=5.4.1",
+    "bokeh>=3.4.1",
+    "chardet>=5.1.0",
+    "connectorx>=0.3.3",
+    "dask>=2024.4.2",
+    "fastexcel>=0.9.1",
+    "geoviews>=1.12.0",
+    "great-tables>=0.13.0",
+    "holoviews>=1.18.3",
+    "hvplot>=0.11.0",
+    "ipython>=8.26.0",
+    "jupyterlab>=4.2.3",
     "lxml>=5.3.0",
-    "maturin>=1.7.4",
+    "matplotlib>=3.9.2",
+    "maturin>=1.6.0",
+    "numpy>=1.24.3",
+    "openpyxl>=3.1.2",
+    "pandas>=2.2.3",
     "pip>=24.3.1",
-    "plotnine>=0.14.1",
-    "polars[all]>=1.13.1",
-    "hvplot>=0.11.1",
+    "plotly>=5.24.1",
+    "plotnine>=0.13.6",
+    "polars[all]>=1.20.0",
+    "pyarrow>=14.0.2",
+    "s3fs>=2023.6.0",
+    "scikit-learn>=1.5.0",
+    "scipy>=1.12.0",
     "textblob>=0.18.0.post0",
-    "scikit-learn>=1.5.2",
-    "jupyter-bokeh>=4.0.5",
+    "vega-datasets>=0.9.0",
+    "vegafusion-python-embed>=1.6.6",
+    "vegafusion[embed]>=1.6.9",
+    "vl-convert-python>=1.7.0",
+    "xlsx2csv>=0.8.2",
+    "xlsxwriter>=3.1.2",
 ]

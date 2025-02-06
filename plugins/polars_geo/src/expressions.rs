@@ -1,4 +1,4 @@
-use geo::{coord, Contains, HaversineDistance, Point, Polygon};
+use geo::{coord, Contains, Distance, Haversine, Point, Polygon};
 use polars::prelude::*;
 use polars::series::amortized_iter::AmortSeries;
 use pyo3_polars::derive::polars_expr;
@@ -46,7 +46,9 @@ fn point_in_polygon(inputs: &[Series]) -> PolarsResult<Series> {
         .amortized_iter()
         .zip(polygon_series.amortized_iter())
         .map(|(point_opt, polygon_opt)| match (point_opt, polygon_opt) {
-            (Some(point), Some(polygon)) => geo_point_in_polygon(Some(point), Some(polygon)),
+            (Some(point), Some(polygon)) => {
+                geo_point_in_polygon(Some(point), Some(polygon))
+            }
             _ => None,
         })
         .collect();
@@ -61,8 +63,10 @@ fn geo_haversine_distance(
     let from_point = extract_point(from_opt);
     let to_point = extract_point(to_opt);
     match (from_point, to_point) {
-        (Some(from_point), Some(to_point)) => Some(from_point.haversine_distance(&to_point)),
-        _ => None, // Return None if point or polygon extraction fails
+        (Some(from_point), Some(to_point)) => {
+            Some(Haversine::distance(from_point, to_point))
+        }
+        _ => None, // Return None if point extraction fails
     }
 }
 

@@ -26,4 +26,5 @@ dependencies = [
     "geoviews==1.14.0",
     "datashader==0.17.0",
     "jupyter-bokeh==4.0.5",
+    "patchelf==0.17.2.1 ; sys_platform == 'linux'",
 ]

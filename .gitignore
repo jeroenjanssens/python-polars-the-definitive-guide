@@ -11,3 +11,6 @@ data/all_stocks.parquet
 data/all_stocks.xlsx
 
 target/
+
+# Don't lock all specifics, just the main dependencies in pyproject.toml
+uv.lock

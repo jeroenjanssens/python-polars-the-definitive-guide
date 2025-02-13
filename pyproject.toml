@@ -27,4 +27,6 @@ dependencies = [
     "datashader==0.17.0",
     "jupyter-bokeh==4.0.5",
     "patchelf==0.17.2.1 ; sys_platform == 'linux'",
+    "hvplot==0.11.2",
+    "vegafusion[embed]==1.6.9",
 ]

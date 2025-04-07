@@ -11,7 +11,8 @@
         "extensions": [
           "ms-python.python",
           "charliermarsh.ruff",
-          "ms-toolsai.jupyter"
+          "ms-toolsai.jupyter",
+          "vscodevim.vim"
         ],
         "settings": {
           "python.defaultInterpreterPath": "/usr/local/bin/python",

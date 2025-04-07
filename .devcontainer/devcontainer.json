@@ -10,7 +10,8 @@
       "vscode": {
         "extensions": [
           "ms-python.python",
-          "charliermarsh.ruff"
+          "charliermarsh.ruff",
+          "ms-toolsai.jupyter"
         ],
         "settings": {
           "python.defaultInterpreterPath": "/usr/local/bin/python",
@@ -23,6 +24,6 @@
         }
       }
     },
-    "postCreateCommand": "uv init",
+    "postCreateCommand": "uv sync",
     "remoteUser": "vscode"
   }

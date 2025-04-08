@@ -11,11 +11,14 @@
         "extensions": [
           "ms-python.python",
           "charliermarsh.ruff",
-          "ms-toolsai.jupyter"
+          "ms-toolsai.jupyter",
+          "vscodevim.vim"
         ],
         "settings": {
           "python.defaultInterpreterPath": "/usr/local/bin/python",
-          "python.formatting.provider": "ruff",
+          "python.editor.formatOnSave": true,
+          "python.editor.defaultFormatter": "charliermarsh.ruff",
+          "notebook.formatOnSave.enabled": true,
           "python.linting.ruffEnabled": true,
           "python.linting.enabled": true,
           "python.linting.flake8Enabled": false,

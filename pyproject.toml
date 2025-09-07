@@ -9,7 +9,7 @@ authors = [
     { name = "Thijs Nieuwdorp", email = "thijsnieuwdorp@hotmail.com" }
 ]
 dependencies = [
-    "polars[all]==1.32.3",
+    "polars[all]==1.33.0",
     "jupyterlab==4.4.6",
     "maturin==1.9.3",
     "plotnine[all]==0.15.0",

@@ -1,9 +1,6 @@
 # Python Polars: The Definitive Guide
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-&nbsp;
-&nbsp;
-[![Polars Discord server](https://dcbadge.vercel.app/api/server/4qf7UVDZmd?style=flat-square)](https://discord.gg/4qf7UVDZmd)
 
 <img src="pp-cover-800w.jpg" width="200" height="263" align="right"/>
 

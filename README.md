@@ -13,5 +13,15 @@ Visit [polarsguide.com](https://polarsguide.com) for more information.
 
 <br clear="both"/>
 
+## Project Setup 
 
+### Install dependencies 
 
+```bash 
+uv add ruff polars "marimo[recommended]" 
+```
+
+### Run editable notebooks 
+```
+uv run marimo edit main.py
+```

@@ -2,10 +2,11 @@ from pathlib import Path
 
 import polars as pl
 from polars.plugins import register_plugin_function
-from polars.type_aliases import IntoExpr
+from polars._typing import IntoExpr
 
 
 PLUGIN_PATH = Path(__file__).parent
+
 
 def point_in_polygon(point: IntoExpr, polygon: IntoExpr) -> pl.Expr:
     return register_plugin_function(

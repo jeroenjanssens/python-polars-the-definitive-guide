@@ -1,31 +1,15 @@
 [project]
-name = "python-polars-the-definitive-guide"
-version = "1.0.0"
-requires-python = "==3.13.*"
-description = "Python Polars: The Definitive Guide"
+name = "polars-marimo-guide"
+version = "0.1.0"
+description = "Python Polars: The Definitive Guide, in marimo!"
 readme = "README.md"
 authors = [
     { name = "Jeroen Janssens", email = "jeroen@jeroenjanssens.com" },
     { name = "Thijs Nieuwdorp", email = "thijsnieuwdorp@hotmail.com" }
 ]
+requires-python = ">=3.13"
 dependencies = [
-    "polars[all]==1.33.0",
-    "jupyterlab==4.4.6",
-    "maturin==1.9.3",
-    "plotnine[all]==0.15.0",
-    "great-tables==0.18.0",
-    "textblob==0.19.0",
-    "scipy==1.16.1",
-    "scikit-learn==1.7.1",
-    "pyarrow==19.0.1",
-    "chardet==5.2.0",
-    "lxml==5.4.0",
-    "altair==5.5.0",
-    "vl-convert-python==1.8.0",
-    "geoviews==1.14.1",
-    "datashader==0.18.2",
-    "jupyter-bokeh==4.0.5",
-    "patchelf==0.17.2.4 ; sys_platform == 'linux'",
-    "hvplot==0.12.0",
-    "vegafusion[embed]==1.6.9",
+    "marimo[recommend,recommended]>=0.20.4",
+    "maturin>=1.12.6",
+    "ruff>=0.15.5",
 ]

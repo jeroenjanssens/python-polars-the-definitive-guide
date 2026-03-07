@@ -60,13 +60,11 @@ fn geo_haversine_distance(
     from_opt: Option<AmortSeries>,
     to_opt: Option<AmortSeries>,
 ) -> Option<f64> {
-    let from_point = extract_point(from_opt);
-    let to_point = extract_point(to_opt);
-    match (from_point, to_point) {
+    match (extract_point(from_opt), extract_point(to_opt)) {
         (Some(from_point), Some(to_point)) => {
-            Some(Haversine::distance(from_point, to_point))
+            Some(Haversine.distance(from_point, to_point))
         }
-        _ => None, // Return None if point extraction fails
+        _ => None,
     }
 }
 

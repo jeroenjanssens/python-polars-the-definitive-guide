@@ -1,10 +1,26 @@
-# Polars Geo Extension 
+# Polars Geo Extension
 
-```
-python3 -m venv .venv 
-./venv .. activate  
+### Create virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
+### Install dependencies
+
+```bash
+pip install polars pytest maturin
 ```
-pip install polars pytest ..
+
+### Build plugin
+
+```bash
+maturin develop
+```
+
+### Run tests
+
+```bash
+pytest
 ```

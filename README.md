@@ -15,10 +15,38 @@ Visit [polarsguide.com](https://polarsguide.com) for more information.
 
 ## Project Setup 
 
-### Install dependencies 
+### Build Polars Geo Extension
+
+#### Create virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+#### Install dependencies
+
+```bash
+pip install polars pytest maturin
+```
+
+#### Build plugin
+
+```bash
+cd plugins/polars_geo 
+maturin develop
+```
+
+#### Run tests
+
+```bash
+pytest
+```
+
+### Install marimo 
 
 ```bash 
-uv add ruff polars "marimo[recommended]" 
+uv add ruff "marimo[recommended]" 
 ```
 
 ### Run editable notebooks 
